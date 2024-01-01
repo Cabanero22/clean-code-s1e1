@@ -27,7 +27,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.input_text, .list__label {
+.input_text,
+.list__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -39,10 +40,12 @@
   margin: 0;
   padding: 0px;
 }
-.list__item, .section__name {
+.list__item,
+.section__name {
   list-style: none;
 }
-.input, .button {
+.input,
+.button {
   outline: none;
 }
 .button {
