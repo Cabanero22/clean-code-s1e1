@@ -155,8 +155,15 @@
 /* Completed */
 
 .section-completed__list {
-  text-decoration: line-through;
   color: #888;
+}
+
+.section-completed__list .list__label {
+  text-decoration: line-through;
+}
+
+.section-completed__list .list__input_text {
+  text-decoration: none;
 }
 
 /* Edit Task */
